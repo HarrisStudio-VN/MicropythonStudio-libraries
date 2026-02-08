@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-08T14:10:00Z",
+  "packages": [
+    {
+      "id": "studio_oled",
+      "name": "OLED SSD1306",
+      "description": "Driver for OLED I2C/SPI displays (SSD1306). Support text and graphics.",
+      "version": "1.0.0",
+      "author": "Micropython Studio",
+      "category": "Display",
+      "repository": "https://github.com/MicropythonStudio-libraries",
+      "files": [
+        "libs/oled/ssd1306.py",
+        "libs/oled/gfx.py"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "studio_wifi",
+      "name": "WiFi Manager",
+      "description": "Easy WiFi connection manager for ESP32/ESP8266.",
+      "version": "1.0.0",
+      "author": "Micropython Studio",
+      "category": "Communication",
+      "repository": "https://github.com/MicropythonStudio-libraries",
+      "files": [
+        "libs/wifi/wifi_manager.py"
+      ],
+      "dependencies": []
+    }
+  ]
+}
